@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-source-hygraph-cms",
+  "version": "1.0.0",
+  "description": "Unofficial plugin source from Hygraph (once GraphCMS)",
+  "main": "gatsby-node.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "dependencies": {
+    "fs-extra": "11.2.0",
+    "node-fetch": "3.3.2",
+    "gatsby-core-utils": "4.13.1",
+    "@graphcms/rich-text-types": "0.5.1",
+    "gatsby-graphql-source-toolkit": "^2.0.4"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-plugin-graphcms",
+    "gatsby-source-graphcms",
+    "gatsby-source-hygraph",
+    "gatsby-source-hygraphcms",
+    "gatsby-source-hygraph-cms"
+  ],
+  "author": "niezle-ziolko",
+  "license": "MIT"
+}
