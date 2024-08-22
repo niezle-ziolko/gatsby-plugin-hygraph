@@ -1,3 +1,4 @@
+"use strict"
 const richTextTypes = require('@graphcms/rich-text-types');
 
 

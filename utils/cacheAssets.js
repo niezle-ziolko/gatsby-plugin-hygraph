@@ -1,5 +1,4 @@
 "use strict";
-
 const path = require('path');
 const fs = require('fs-extra');
 const filesystem = require('gatsby-source-filesystem');
