@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const toolkit = require('gatsby-graphql-source-toolkit');
 
 const utils = require('./utils/cacheAssets');

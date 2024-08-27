@@ -113,7 +113,7 @@ async function createLocalFile(context, remoteAsset, pluginOptions) {
 };
 
 module.exports = {
-  _cache: _cache,
-  createLocalFile: createLocalFile,
-  getLocalFileName: getLocalFileName
+  _cache,
+  createLocalFile,
+  getLocalFileName
 };

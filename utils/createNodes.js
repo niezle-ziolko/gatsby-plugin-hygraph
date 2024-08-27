@@ -1,3 +1,4 @@
+"use strict";
 const toolkit = require('gatsby-graphql-source-toolkit');
 const feature = require('gatsby-plugin-utils/has-feature');
 
@@ -50,6 +51,4 @@ async function createNodes(gatsbyApi, pluginOptions, reporter) {
   return undefined;
 };
 
-module.exports = { 
-  createNodes: createNodes
-};
+module.exports = { createNodes };

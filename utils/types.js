@@ -11,7 +11,7 @@ function specialObject(type) {
 };
 
 module.exports = {
-  specialField: specialField,
-  specialUnion: specialUnion,
-  specialObject: specialObject
+  specialField,
+  specialUnion,
+  specialObject
 };

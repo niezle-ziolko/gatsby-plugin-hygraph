@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const richTextTypes = require('@graphcms/rich-text-types');
 
 
@@ -104,6 +104,4 @@ function cleanupRichTextContent(content) {
   return undefined;
 };
 
-module.exports = {
-  cleanupRichTextContent: cleanupRichTextContent
-};
+module.exports = { cleanupRichTextContent };

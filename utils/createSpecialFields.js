@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const graphql = require('graphql');
 
 const utils = require('./utils');
@@ -108,6 +108,4 @@ async function createSpecialFields(gatsbyApi, buildMarkdownNodes, reporter) {
   return specialFieldsMap;
 };
 
-module.exports = {
-  createSpecialFields: createSpecialFields
-};
+module.exports = { createSpecialFields };

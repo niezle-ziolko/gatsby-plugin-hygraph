@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const fs = require('fs-extra');
 const toolkit = require('gatsby-graphql-source-toolkit');
 
@@ -111,6 +111,4 @@ async function createSourceConfig(gatsbyApi, pluginOptions, reporter) {
   };
 };
 
-module.exports = {
-  createSourceConfig: createSourceConfig
-};
+module.exports = { createSourceConfig };

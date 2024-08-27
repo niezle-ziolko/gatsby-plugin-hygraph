@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const path = require('path');
 const filesystem = require('gatsby-source-filesystem');
 
@@ -438,6 +438,6 @@ async function processNodesOfType(pluginOptions, context, remoteTypeName, remote
 };
 
 module.exports = {
-  processNodesOfType: processNodesOfType,
-  processDownloadable: processDownloadable
+  processNodesOfType,
+  processDownloadable
 };

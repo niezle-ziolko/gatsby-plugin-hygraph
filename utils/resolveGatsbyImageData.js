@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const path = require('path');
 const promises = require('fs/promises');
 const { getDominantColor } = require('gatsby-plugin-sharp');
@@ -151,7 +151,4 @@ async function resolveGatsbyImageData(image, options, _context, _info, { reporte
   return generateImageData(imageDataArgs);
 };
 
-module.exports = {
-  resolveGatsbyImageData: resolveGatsbyImageData,
-  resolveGatsbyImageData: resolveGatsbyImageData
-};
+module.exports = { resolveGatsbyImageData };

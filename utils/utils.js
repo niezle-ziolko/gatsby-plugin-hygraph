@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const path = require('path');
 const fs = require('fs-extra');
 const graphql = require("graphql");
@@ -154,12 +154,12 @@ async function copyLocaleFile(sourcePath, targetPath) {
 };
 
 module.exports = {
-  retry: retry,
-  fetchSchema: fetchSchema,
-  getRealType: getRealType,
-  copyLocaleFile: copyLocaleFile,
-  specialFieldsMap: specialFieldsMap,
-  addScheduledTypes: addScheduledTypes,
-  systemFieldArguments: systemFieldArguments,
-  writeCompiledQueries: writeCompiledQueries
+  retry,
+  fetchSchema,
+  getRealType,
+  copyLocaleFile,
+  specialFieldsMap,
+  addScheduledTypes,
+  systemFieldArguments,
+  writeCompiledQueries
 };
