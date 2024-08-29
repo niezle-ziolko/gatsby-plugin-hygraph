@@ -3,5 +3,4 @@ node_modules/
 public
 .cache
 
-package-lock.json
 .gitpod.yml
