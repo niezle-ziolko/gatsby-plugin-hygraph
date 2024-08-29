@@ -1,5 +1,4 @@
 "use strict";
-
 function specialField(type) {
   return typeof type.field !== 'undefined';
 };

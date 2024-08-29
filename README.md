@@ -1,4 +1,4 @@
-<h2 align="center">gatsby-source-hygraph-cms</h2>
+<h2 align="center">gatsby-plugin-hygraph</h2>
 <p align="center">Unofficial plugin source from Hygraph (once Hygraph)</p>
 
 This simplifies and adds some new features
@@ -14,13 +14,13 @@ This simplifies and adds some new features
 ## Installation
 
 ```shell
-npm install gatsby-source-hygraph-cms
+npm install gatsby-plugin-hygraph
 ```
 
 or
 
 ```shell
-yarn add gatsby-source-hygraph-cms
+yarn add gatsby-plugin-hygraph
 ```
 
 ## Configuration
@@ -36,7 +36,7 @@ You can also provide an auth token using the `token` configuration key. This is 
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN
@@ -90,7 +90,7 @@ The example below assumes that both the `DRAFT` and `PUBLISHED` stages are publi
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN,
@@ -123,7 +123,7 @@ Update your plugin configuration to include the `locales` key.
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN,
@@ -165,7 +165,7 @@ Update your plugin configuration to include the `allowedTypes` key.
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN,
@@ -228,7 +228,7 @@ To enable this, add `downloadAssets: true` to your plugin configuration. This do
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN,
@@ -248,7 +248,7 @@ If you also want to add support for downloading images to local files, add the f
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN,
@@ -285,7 +285,7 @@ To enable this, add `buildMarkdownNodes: true` to your plugin configuration.
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN,
@@ -334,7 +334,7 @@ To enable this, add something like `markdownFields: {Author: ['description']}` t
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN,
@@ -362,7 +362,7 @@ The source plugin will generate and save GraphQL query fragments for every node 
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-hygraph-cms',
+      resolve: 'gatsby-plugin-hygraph',
       options: {
         endpoint: process.env.HYGRAPH_ENDPOINT,
         token: process.env.HYGRAPH_TOKEN,

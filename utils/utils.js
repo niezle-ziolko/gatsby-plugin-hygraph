@@ -2,8 +2,8 @@
 const path = require('path');
 const fs = require('fs-extra');
 const graphql = require("graphql");
-const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const { print } = require('gatsby/graphql');
+const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
 const types = require('./types');
 
