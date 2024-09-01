@@ -81,8 +81,11 @@ async function createSourceConfig(gatsbyApi, pluginOptions, reporter) {
       return config;
     });
 
-  fs.ensureDir(fragmentsDir);
-  reporter.success(`${fragmentsDir} is created.`);
+  if (!fs.existsSync(fragmentsDir)) {
+    await fs.ensureDir(fragmentsDir);
+
+    reporter.success(`${fragmentsDir} is created.`);
+  };
 
   const fragments = await toolkit.readOrGenerateDefaultFragments(
     fragmentsDir,

@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-hygraph",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unofficial plugin source from Hygraph (once GraphCMS)",
   "main": "gatsby-node.js",
   "private": false,
