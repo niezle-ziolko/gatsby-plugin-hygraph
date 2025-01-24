@@ -9,9 +9,9 @@
     "build": "echo \"No build script setup\""
   },
   "dependencies": {
-    "fs-extra": "11.2.0",
+    "fs-extra": "11.3.0",
     "node-fetch": "3.3.2",
-    "gatsby-core-utils": "4.13.1",
+    "gatsby-core-utils": "4.14.0",
     "@graphcms/rich-text-types": "0.5.1",
     "gatsby-graphql-source-toolkit": "^2.0.4"
   },
